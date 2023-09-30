@@ -11,6 +11,9 @@ Welcome to the **Scheduling Site**, a user-friendly web application designed to 
     - [Scheduling Availability](#scheduling-availability)
     - [MySQL Database](#mysql-database)
   - [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 The **Scheduling Site** simplifies the scheduling process by requiring users to provide a unique token stored in a MySQL database. Once authenticated, users can schedule their availability for upcoming meetings, which is then stored securely in the database.
@@ -44,30 +47,31 @@ To set up the **Scheduling Site**, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/scheduling-site.git
+``
+2. Configure the application to connect to your MySQL database. This may involve editing a configuration file or providing environment variables.
 
-    Configure the application to connect to your MySQL database. This may involve editing a configuration file or providing environment variables.
+3. Create a table in your MySQL database to store scheduling data.
 
-    Create a table in your MySQL database to store scheduling data.
+4. Configure the token for user authentication and store it in your MySQL database.
 
-    Configure the token for user authentication and store it in your MySQL database.
+5. Start the web server. The exact command may vary based on your stack (e.g., Node.js, PHP, Django).
 
-    Start the web server. The exact command may vary based on your stack (e.g., Node.js, PHP, Django).
+6. Access the site by navigating to its URL in your web browser.
 
-    Access the site by navigating to its URL in your web browser.
+# Usage
 
-Usage
+1. Visit the site and enter your token for authentication.
 
-    Visit the site and enter your token for authentication.
+2. Once authenticated, you can access the scheduling interface.
 
-    Once authenticated, you can access the scheduling interface.
+3. Select your preferred date and time slots for availability and provide meeting details as required.
 
-    Select your preferred date and time slots for availability and provide meeting details as required.
+4. Submit your availability schedule, and it will be securely stored in the MySQL database.
 
-    Submit your availability schedule, and it will be securely stored in the MySQL database.
-
-Contributing
+# Contributing
 
 We welcome contributions to enhance the Scheduling Site. Please review our contribution guidelines for details on how to contribute.
-License
+
+# License
 
 The Scheduling Site is licensed under the MIT License.
